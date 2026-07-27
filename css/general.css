@@ -1,0 +1,136 @@
+/* reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*variables*/
+:root{
+    --max-widht:1100px;
+/*colores*/    
+    --color-primario:#60bf83;
+    --color-botones:#00ab85;
+    --color-masoscuro:#008a7e;
+    --color-header:#09694c;
+    --color-detalles:#25592e;
+/*fuentes*/
+    --font-heading: "Poppins",serif;
+    --font-body: "Montserrat",sans-serif;
+}
+body{ 
+    background-color: var(--color-primario);
+    color:beige;
+    line-height: 1.6;
+    min-height: 100vh;/*evita que el footer suba*/
+    display: flex;/*evita que el footer suba*/
+    flex-direction: column;
+    font-family: var(--font-body);
+}
+h1,h2,h3{
+    font-family: var(--font-heading);
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+   a{
+    text-decoration: none;
+    color: inherit;
+   }
+ul{
+    list-style: none;
+}
+header{
+    background-color:var(--color-masoscuro) ;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index:10 ;
+}
+.navbar{
+    color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-widht);
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.logo{
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color:white;   
+}
+.logo i{
+    color: var(--color-detalles);
+    margin-right: 0.4rem;
+}
+.nav-links{
+    display: flex;
+    gap: 1.8rem;
+
+}
+.nav-links li a{
+    color:white;
+    font-size: 0.90rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: color 0.2s;
+}
+.nav-links a:hover{
+    color: var(--color-botones);
+
+}
+.whatsaap-btn{ position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;color: #fff;
+    padding: 12px 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: opx 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    z-index:1}
+
+  .whatsaap-btn:hover{
+    background-color: #128c7e;
+    transform: scale(1.05);
+}
+footer{
+    background-color:var(--color-masoscuro) ;
+    color: white;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    margin-top: auto;/*baja el footer*/
+}
+.nav-footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.nav-footer a:hover, .footer-social{
+    color: var(--color-detalles);
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.nav-footer a, .footer-social{
+    transition: color 0.2s;
+}
+/*responsive*/
+@media(max-widht:768px){.navbar{flex-direction: column;text-align: center;}}
