@@ -1,0 +1,41 @@
+.cards-section{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem 2rem 3rem;
+}
+.cards-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.cards{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;/*es cuando supera el limite de su contenedor*/
+    box-shadow: 0 4px rgba(0,0,0,0.08);
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 280px;/*crece o se achica de acuerdo al espacio con un minimo*/
+}
+.card img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-body{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}
+.card-body h3{
+    color:var(--color-detalles);
+}
+.card-body div{
+    flex: 1;/*empuja el boton hacia abajo*/
+    font-size: 1rem;
+    color: rgb(38, 179, 85);
+}

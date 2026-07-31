@@ -1,0 +1,25 @@
+.hero{
+    width: 100%;
+    min-height: 80vh;
+    background-image:linear-gradient(rgba(44,24,16,0.55),rgba(44,24,16,0.55)), url("../../assets/img/watermarked_img_12906720815836327678.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:2rem;
+    gap: 1rem;
+}
+.hero h1{
+    color: white;
+    font-size: 3rem;
+}
+.hero p{
+    color: white;
+    max-width: 500px;
+    font-size: 1.1rem;
+}
+@media(max-width:768px){.hero h1{font-size: 2.2rem;}}

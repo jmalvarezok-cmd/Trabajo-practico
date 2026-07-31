@@ -1,0 +1,20 @@
+.galery-section{
+    max-width: var(--max-widht);
+    margin: 0 auto;
+    padding: 1rem 2rem 3rem;
+}
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.galery-item{
+    flex: 1 1 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius:8px;
+    transition: transform 0.3s;
+}
+.galery-item:hover{
+    transform: scale(1.03);
+}
