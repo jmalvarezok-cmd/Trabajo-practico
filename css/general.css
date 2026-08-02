@@ -30,7 +30,7 @@ body{
     font-family: var(--font-body);
 }
 h1,h2,h3{
-    font-family: var(--font-heading);
+    font-family:var(--font-body);
 }
 
 img{
@@ -38,15 +38,16 @@ img{
     display: block;
 }
    a{
+    font-weight: 500;
     text-decoration: none;
-    color:#25592e;
+    color:black;
    }
 ul{
     list-style: none;
 }
 .btn{
     font-family: var(--font-body);
-    padding: 0.8rerm 1.8rem;
+    padding: 0.3rem;
     border: none;
     border-radius: 30px;
     font-weight: 600;
@@ -55,13 +56,13 @@ ul{
 }
 .btn-primary{
     color:white;
-    background-color: aquamarine;
+    background-color: rgb(163, 119, 62);
 }
 .btn-primary:hover{
-    background-color: var(--color-masoscuro);
+    background-color: rgb(138, 91, 63);
 }
 header{
-    background-color:var(--color-masoscuro) ;
+    background-image: url(../assets/img/WhatsApp\ Image\ 2026-08-02\ at\ 11.51.00.jpeg) ;
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
@@ -102,10 +103,11 @@ header{
     transition: color 0.2s;
 }
 .nav-links a:hover{
-    color: var(--color-botones);
+    color: black;
 
 }
-.whatsaap-btn{ position: fixed;
+.whatsaap-btn{
+    position: fixed;
     bottom: 20px;
     right: 20px;
     background-color: #25d366;color: #fff;
@@ -127,7 +129,7 @@ header{
     transform: scale(1.05);
 }
 footer{
-    background-color:var(--color-masoscuro) ;
+    background-color: #ad5e34b2;
     color: white;
     text-align: center;
     padding: 2.5rem 1rem;
@@ -141,7 +143,7 @@ footer{
     margin-bottom: 0.5rem;
 }
 .nav-footer a:hover, .footer-social{
-    color: var(--color-detalles);
+    color: white;
 }
 .footer-social{
     display: flex;
@@ -158,5 +160,9 @@ footer{
     text-align: center;
     font-size: 2.5rem;
     margin: 2rem 0;
-    color:rgb(162, 218, 190);
+    color:rgb(247, 245, 244);
+}
+footer li{
+color: black;
+font-weight: 500;
 }

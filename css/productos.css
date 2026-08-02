@@ -10,7 +10,7 @@
     justify-content: center;
 }
 .cards{
-    background-color: white;
+    background-color: rgb(192, 152, 137);
     border-radius: 10px;
     overflow: hidden;/*es cuando supera el limite de su contenedor*/
     box-shadow: 0 4px rgba(0,0,0,0.08);
@@ -32,10 +32,10 @@
     flex: 1;
 }
 .card-body h3{
-    color:var(--color-detalles);
+    color:black;
 }
 .card-body div{
     flex: 1;/*empuja el boton hacia abajo*/
     font-size: 1rem;
-    color: rgb(38, 179, 85);
+    color: rgb(3, 3, 3);
 }

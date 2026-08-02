@@ -7,7 +7,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
-    background-color: rgb(48, 116, 93);
+    background-color: rgba(189, 155, 117, 0.788);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.8);
@@ -29,7 +29,7 @@ input, select, textarea fieldset{
     border-radius: 8px;
     background-color:cornsilk;
 }
-.form-buttons{
+.form-button{
     display: flex;
     gap: 1rem;
 }
@@ -38,4 +38,5 @@ input, select, textarea fieldset{
 }
 .radio-group{
     display: flex;
+    gap: 1.5rem;
 }
