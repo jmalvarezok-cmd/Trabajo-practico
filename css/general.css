@@ -6,7 +6,7 @@
 }
 /*variables*/
 :root{
-    --max-widht:1100px;
+    --max-width:1100px;
 /*colores*/    
     --color-primario:#60bf83;
     --color-botones:#00ab85;
@@ -117,7 +117,7 @@ header{
     font-size: 16px;
     text-decoration: none;
     border-radius: 50px;
-    box-shadow: opx 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     gap: 8px;
@@ -154,7 +154,7 @@ footer{
     transition: color 0.2s;
 }
 /*responsive*/
-@media(max-widht:768px){.navbar{flex-direction: column;text-align: center;}}
+@media(max-width:768px){.navbar{flex-direction: column;text-align: center;}}
 
 .page-title{
     text-align: center;
