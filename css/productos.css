@@ -19,7 +19,7 @@
     flex-direction: column;
     flex: 1 1 280px;/*crece o se achica de acuerdo al espacio con un minimo*/
 }
-.card img{
+.cards img{
     height: 200px;
     width: 100%;
     object-fit: cover;

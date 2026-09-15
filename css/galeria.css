@@ -1,5 +1,5 @@
 .galery-section{
-    max-width: var(--max-widht);
+    max-width: var(--max-width);
     margin: 0 auto;
     padding: 1rem 2rem 3rem;
 }
