@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-
-// Importaremos las páginas que vamos a crear en la carpeta src/pages/
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Gallery from './pages/Gallery';
