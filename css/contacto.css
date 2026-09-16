@@ -16,6 +16,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    width: 100%;
 }
 label{
     font-weight: 600;
@@ -27,7 +28,7 @@ input, select, textarea, fieldset{
     padding: 0.5rem;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color:cornsilk;
+    
 }
 .form-button{
     display: flex;
