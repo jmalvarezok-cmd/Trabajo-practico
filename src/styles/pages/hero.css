@@ -1,7 +1,7 @@
 .hero{
     width: 100%;
     min-height: 80vh;
-    background-image:linear-gradient(rgba(44,24,16,0.55),rgba(44,24,16,0.55)), url("../../assets/img/watermarked_img_12906720815836327678.jpg");
+    background-image: linear-gradient(rgba(44,24,16,0.55), rgba(44,24,16,0.55)), url("../../assets/img/watermarked_img_12906720815836327678.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding:2rem;
+    padding: 2rem;
     gap: 1rem;
 }
 .hero h1{
