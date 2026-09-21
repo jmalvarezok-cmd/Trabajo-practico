@@ -73,7 +73,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: var(--max-widht);
+    max-width: var(--max-width);
     margin: 0 auto;
     flex-wrap: wrap;
     gap: 1rem;

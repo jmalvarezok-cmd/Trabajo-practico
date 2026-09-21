@@ -10,6 +10,15 @@ function Layout() {
       <main>
         <Outlet />
       </main>
+    
+      <a 
+        href="https://wa.me/tu_numero" 
+        className="whatsaap-btn" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        <i className="fa-brands fa-whatsapp"></i> WhatsApp
+      </a>
       <Footer />
     </div>
   );
